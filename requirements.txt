@@ -1,0 +1,9 @@
+numpy==1.22.0
+torch>=0.4.0
+scikit-image>=0.14.0
+SimpleITK>=2.0.2
+pandas
+nibabel
+scipy
+tqdm
+joblib
