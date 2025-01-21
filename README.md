@@ -3,6 +3,9 @@ FFCM-MRF is an open-source MATLAB GUI for ToF-MRA data preprocessing, cerebrovas
 
 For detailed information using FFCM-MRF, please refer to the manual.pdf file.
 
+
+Due to git LFS limitations on large file downloads, we deleted the model file that was originally located in “./HD-BET/hd-bet_params”, and modified it to automatically detect whether it exists when executing the de-cranialization command, and download it automatically if the file does not exist.
+
 ## :books: Citation
 Please cite the [following paper](https://doi.org/10.1016/j.compbiomed.2024.107996) when using FFCM-MRF:
 
